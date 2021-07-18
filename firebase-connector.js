@@ -34,8 +34,6 @@ let myFlashcards=[
 
 
 
-firebase.database().ref();  // Specifies the database root
-
 
 // Make the database point to the location root -> deck -> flashcards
 // If the location doesn't exist is will be created
