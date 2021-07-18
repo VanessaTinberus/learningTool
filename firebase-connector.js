@@ -1,6 +1,9 @@
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
     apiKey: "AIzaSyCeFosFcyyPNKGUEz418IyC81MuU8InTPk",
     authDomain: "best-learning-tool-b4a83.firebaseapp.com",
+    databaseURL: "https://best-learning-tool-b4a83-default-rtdb.firebaseio.com",
     projectId: "best-learning-tool-b4a83",
     storageBucket: "best-learning-tool-b4a83.appspot.com",
     messagingSenderId: "88761799029",
@@ -10,6 +13,8 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
+
 
 
 //variables
