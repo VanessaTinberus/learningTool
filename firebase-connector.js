@@ -10,3 +10,31 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
+
+//variables
+let myFlashcards=[ 
+{
+    'question':'Does the sun rise in the east?',
+    'answer':'Yes.'
+},
+{
+    'question':'Is New York the capital of the U.S.A?',
+    'answer':'No.'
+},
+{
+    'question':'How many days are there in March?',
+    'answer':'31.'
+}
+];
+
+
+
+// Make the database point to the location root -> deck -> flashcards
+// If the location doesn't exist is will be created
+let dbLocation = firebase.database().ref('deck/flashcards');
+
+// myFlashcards will be stored under flashcards in the database
+// Anything that was in this location will be overwritten 
+// Thus, a write operation also does an update
+dbLocation.set(myFlashcards);
