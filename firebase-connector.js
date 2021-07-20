@@ -19,20 +19,18 @@ let myFlashcards=[
 // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyD2Vg8heDLMprUNCLPmYpHFEPyzK8YxykE",
-    authDomain: "flashcards-test-v.firebaseapp.com",
-    databaseURL: "https://flashcards-test-v-default-rtdb.firebaseio.com",
-    projectId: "flashcards-test-v",
-    storageBucket: "flashcards-test-v.appspot.com",
-    messagingSenderId: "734439978721",
-    appId: "1:734439978721:web:fdea61f4c8001c5bb769a0",
-    measurementId: "G-W0QDFLL7E3"
-  };
+    apiKey: "AIzaSyCeFosFcyyPNKGUEz418IyC81MuU8InTPk",
+    authDomain: "best-learning-tool-b4a83.firebaseapp.com",
+    databaseURL: "https://best-learning-tool-b4a83-default-rtdb.firebaseio.com",
+    projectId: "best-learning-tool-b4a83",
+    storageBucket: "best-learning-tool-b4a83.appspot.com",
+    messagingSenderId: "88761799029",
+    appId: "1:88761799029:web:64dd8e3001c4c197b1033c",
+    measurementId: "G-F288JZHDS9"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-
 
 
 
