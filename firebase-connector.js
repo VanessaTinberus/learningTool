@@ -21,11 +21,13 @@ let myFlashcards=[
   var firebaseConfig = {
     apiKey: "AIzaSyD2Vg8heDLMprUNCLPmYpHFEPyzK8YxykE",
     authDomain: "flashcards-test-v.firebaseapp.com",
+    databaseURL: "https://flashcards-test-v-default-rtdb.firebaseio.com",
     projectId: "flashcards-test-v",
     storageBucket: "flashcards-test-v.appspot.com",
     messagingSenderId: "734439978721",
     appId: "1:734439978721:web:fdea61f4c8001c5bb769a0",
     measurementId: "G-W0QDFLL7E3"
+  };
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
